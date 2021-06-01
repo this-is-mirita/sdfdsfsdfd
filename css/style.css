@@ -1,0 +1,608 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.wrapheader-wrap {
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+.wrap1header-wrap {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+
+.wrap2header-wrap {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+}
+
+.wrap {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-link {
+  margin-right: 19px;
+}
+
+.text-link {
+  text-decoration: none;
+  margin: 0 auto;
+  margin-right: 28px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.text {
+  margin-left: 40px;
+}
+
+.header_text {
+  font-size: 16px;
+  color: black;
+  font-weight: 400;
+}
+
+.promo {
+  background-color: white;
+  background-repeat: no-repeat;
+}
+
+.promo {
+  background-repeat: no-repeat;
+}
+
+.promo-wrap {
+  background-image: url(../img/promo.png);
+  min-height: 546px;
+  background-position-x: 751px;
+  background-position-y: 1px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.appl {
+  height: 175px;
+  left: 25px;
+  top: 450px;
+  position: absolute;
+}
+.goodleee {
+  height: 475px;
+  left: 25px;
+  top: 525px;
+  position: absolute;
+}
+
+.promo-title-main-text {
+  margin: 0;
+  font-weight: Nunito;
+  font-size: 16px;
+  letter-spacing: 0.25px;
+  color: #000000;
+  position: absolute;
+  height: 175px;
+  left: 72px;
+  top: 235px;
+}
+
+ .firstslide {
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  height: 700px;
+}
+
+.leftFS {
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 25%;
+  justify-content: space-evenly;
+  
+}
+
+.imgs {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  flex-flow: column nowrap;
+}
+
+.fsD {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: -20%;
+}
+.sdD {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 38px;
+  font-weight: bolder;
+  margin-top: -15%;
+}
+.tdD {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 18px;
+  margin-top: -35%;
+}
+.fhD {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  margin-top: -20%;
+}
+
+.rightFS {
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.secondslide {
+  margin-top: 2%;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  height: 700px;
+}
+
+.promo2 {
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.textt2 {
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: column nowrap;
+  max-width: 30%;
+  justify-content: center;
+}
+
+.zagolovok {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 42px;
+  font-weight: bolder;
+}
+
+.maintext {
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  font-size: 18px;
+}
+
+.thirdslide {
+  display: -webkit-flex;
+  display: flex;
+  height: 700px;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.zagolovok1 {
+  
+  font-size: 36px;
+  font-weight: Nunito ;
+  margin-top: 0px ;
+  margin-right: 100px ;
+  font-weight: Nunito;
+  margin-left: 0px ;
+}
+
+
+.textt3 {
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+ max-width: 35% ;
+}
+
+.maintext2 {
+  
+  font-size: 18px;
+  font-weight: 13px ;  
+
+}
+
+
+
+.maintext1 {
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  font-size: 18px;
+
+}
+
+.promo3 {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+
+  
+} 
+
+.fourslide{
+  display: -webkit-flex;
+  display: flex;
+  height: 200px;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center ;
+}
+
+.zagolovok2{
+  
+  font-size: 20px;
+  font-weight: Nunito ;
+  margin-top: 0px ;
+  text-align: center ;
+  display: flex ;
+  flex-flow: column nowrap ;
+  height: 400px;
+  align-items: center ;
+}
+
+.textt4{
+  display: flex;
+  
+ max-width: 55% ;
+
+}
+
+
+.abc{
+  display: flex ;
+  font-size: 32px ;
+  font-weight: bolder ;
+}
+
+
+.Show{
+  text-align: center;
+ 
+}
+
+
+.fiveslide{
+  display: -webkit-flex;
+  display: flex;
+  height: 700px;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.booking{
+margin-top: -650px;
+margin-bottom: 0px;
+margin-left: 150px ;
+justify-content: flex-end ;
+}
+
+.alishka{
+  margin:0px;
+  margin-left: 500px ;
+  margin-top: -75px;
+  margin-left: 400px ;
+  
+}
+
+.allegro{
+  margin:0px;
+  margin-left: 800px ;
+  margin-top: -75px;
+  margin-left: 650px ;
+}
+
+.zalando{
+
+  margin: 20px;
+  margin-left: 1000px ;
+  margin-top: -70px;
+  margin-left: 950px ;
+}
+
+.krug{
+  margin: 10px;
+  margin-left: 150px ;
+  margin-top: 1px;
+  margin-right: 70px;
+}
+
+.media{
+  margin: 10px;
+  margin-left: 350px ;
+  margin-top: -95px;
+ 
+}
+
+.rtv{
+  margin: 10px;
+  margin-left: 650px ;
+  margin-top: -85px;
+}
+
+.groupon{
+  margin: 10px;
+  margin-left: 950px ;
+  margin-top: -85px;
+}
+
+
+.firstslide{
+  display: -webkit-flex;
+  display: flex;
+ 
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.zagolovok3{
+  font-size: 36px;
+  font-weight: Nunito ;
+  margin-top: 55px ;
+  margin-left: 200px ;
+ flex-flow: column nowrap ;
+}
+
+
+.textt5{
+  font-weight: Ninito ;
+  font-size: 18px;
+  margin-left: 200px ;
+  margin-left: 200px ;
+  max-width: 35% ;
+  flex-flow: column nowrap ;
+  margin-top: 30px ;
+  
+}
+
+
+
+
+.promo4{
+  margin-right: 100px;
+  align-items: center ;
+  margin-left: 770px ;
+  margin-top: -300px ;
+  flex-flow: column nowrap ;
+}
+
+
+.mypay1{
+  
+  margin-top: -280px ;
+  margin-left:195px ;
+  margin-bottom: 100px ;
+}
+.mypay2{
+  margin-top: -164px ;
+  margin-left: 310px ;
+  margin-bottom: 111px ;
+}
+
+
+.promo5{
+  margin-top: 300px ;
+  margin-left: 100px ;
+}
+
+
+.zagolovok4{
+  margin-top: -400px;
+  margin-left: 800px;
+  font-weight: Nunito ;
+  font-size: 36px;
+}
+
+.textt6{
+  margin-top: -30px ;
+  margin-left: 800px ;
+}
+
+.sevenslide{
+  display: -webkit-flex;
+  display: flex;
+  height: 900px;
+  flex-flow: row nowrap;
+ 
+}
+
+
+.promo6{
+  margin-left:750px; ;
+  margin-top:100px ;
+}
+
+
+.zagolovok5{
+  margin-top: 200px ;
+font-size: 36px; ;
+margin-left: -1220px ;
+}
+
+.textt7{
+  
+  margin-top: 300px ;
+  margin-left: -350px ;
+}
+
+
+.eightslide{
+
+  display: flex;
+ 
+  
+
+}
+
+.textt8{
+
+align-items: center ;
+margin-left: 100px ;
+}
+
+
+
+.zagolovok7{
+  margin-left: 100px ;
+  margin-top: -200px ;
+  font-size : 32px ;
+  max-height: 40% ;
+  align-items: center;
+}
+
+.textt9{
+  font-size: 18px ;
+  justify-content: space-around ;
+ margin-top: -80px ;
+ margin-left: 50px ;
+}
+
+
+.plp0{
+display:flex ;
+flex-flow: nowrap ;
+margin-top: 50px ;
+margin-left: 100px ;
+}
+
+.plq42{
+ 
+  margin-top: 600px ;
+  margin-left: -1600px ;
+}
+
+
+.promo7{
+  display: flex ;
+  margin-left: 0px ;
+  margin-top: -260px ;
+  max-height: 500px ;
+  
+  
+}
+
+
+.ninesslide{
+  
+ height: 700px;
+
+}
+
+.group1 {
+  text-decoration: none;
+  margin-left: 200px ;
+  font: Nunito ;
+  font-size: 14px ;
+  color: #000000;
+  margin-top: -10px ;
+}
+
+.group2  {
+  
+  margin-left: 180px;
+  margin-top: -230px ;
+  font: Nunito ;
+  font-size: 14px ;
+  color: #000000;
+  text-decoration:none
+}
+.group3  {
+  margin-left: 200px;
+  color: #000000;
+  margin-top: -150px ;
+  font: Nunito ;
+ font-size: 14px ;
+ text-decoration:none
+}
+.group4  {
+  margin-left: 180px;
+  color: #000000;
+  margin-top: -115px ;
+  font: Nunito ;
+  font-size: 14px ;
+  text-decoration:none
+}
+
+.group5  {
+  margin-top: -95px ;
+  margin-right: 200px  ;
+  color: #000000;
+ 
+  font: Nunito ;
+ font-size: 14px ;
+ text-decoration:none
+}
+.gr6{
+  margin-left: 100px ;
+  margin-top: -16px ;
+}
+
+.gr33{
+  margin-top: 10px ;
+  margin-left: 100px;
+}
+
+.group6{
+  margin-left: 210px ;
+  color: #000000;
+  margin-top: -95px ;
+  text-decoration:none
+}
+
+.gr333{
+  margin-left: -780px ;
+  margin-top: 200px ;
+}
+
+.textt99{
+  color: #AAAAAA ; 
+  margin-top: 10px ;
+  margin-left: -780px ;
+ max-width: 370% ;
+ font-size: 12px;
+}
+.gr344{
+  margin-top: -80px ;
+  margin-left: 800px ;
+}
+
+a{
+  text-decoration: none;
+  }
